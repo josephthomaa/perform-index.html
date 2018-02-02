@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contact Us</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <link rel="icon" href="icon.png" type="image/x-icon" sizes="16x16">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="css/libs.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/modernizr.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <header id="header" class="fixed-on-top">
+      <div class="row">
+        <div class="col-xs-5 col-sm-4"><a href="index.html" title="Performant Systems" class="logo"><img src="images/logo.png" style ="max-width:50%;" alt="Performant Systems"></a>
+        </div>
+        <div class="col-xs-7 col-sm-8">
+          <div class="header-right">
+
+            <nav>
+              <ul>
+                <li class="visible-sm-up"><a href="#" title="Home" class="menu-link">BLOG</a>
+                </li>
+                <li class="visible-sm-up"><a href="#" title="BUSINESS">SUPPORT</a>
+                </li>
+              </ul>
+              <select name="quick-link-select" class="hidden-sm-up">
+                <option value="1" selected>Home</option>
+                <option value="2">Enpaq</option>
+              </select>
+            </nav>
+            <span style = "color:#FFFFFF;font-size: 7px;"><a href="#" title="Customer Login" class="icon icon-register hidden-xs hidden-sm"> CUSTOMER LOGIN</a></span><a href="javascript:;" title="Login" class="icon icon-login login-btn"></a><a href="javascript:;" title="" class="icon icon-menu"></a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div id="main-nav">
+      <div class="inner">
+       
+            <ul id="nav">
+              <li ><a href="index.html" title="Home" class="active"><span>Home</span></a>
+              </li>
+              <li><a href="enpaq.html" title="Apply Online"><span>ENPAQ</span></a>
+              </li>
+              <li><a href="customers.html" title="Customers"><span>Customers</span></a>
+              </li>
+              
+              <li><a href="locate-us.html" title="Locate Us"><span>Locate Us</span></a>
+              </li>
+              <li class="active"><a href="contact-us.html" title="Contact Us"><span>Contact Us</span></a>
+              </li>
+              
+            </ul>
+        
+      </div>
+    </div>
+    <div class="container">
+      <section class="inner-container" style="font-family: Ubuntu;">
+        <main>
+              <section style="background-image: url(images/upload/contact.jpg);margin-top:7px" data-parallax="full" class="product-detail-banner">
+                <div class="caption center-full">
+                  <div class="inner">
+                    <h2>Contact Us</h2>
+                    <p class="point" >We want to hear from you! Your input is valuable and will allow us to better serve your needs in the future.</p>
+                  </div>
+                </div>
+              </section>
+          <div class="contact-form">
+            <div class="row">
+              <div class="col-md-7">
+                <form action="email.php" method="post" name="contactus-form" id="contactus-form" data-k2-validation="true" novalidate class="general-form">
+                  <h5 class="title-form">CONTACT ENQUIRIES</h5>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="group">
+                        <div class="custom-select style-form">
+                          <div class="custom-text"><span class="text"></span></div>
+                          <select name="enquiry-select" data-rules="required" data-error-mes="This field is required">
+                            <option></option>
+                            <option>Compliment</option>
+                            <option>Request</option>
+                            <option>Complaint</option>
+                            <option>Enquiry</option>
+                            <option>Suggestion</option>
+                          </select>
+                        </div>
+                        <label>Enquiry</label>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="custom-select style-form">
+                      <div class="group">
+                          <div class="custom-text"><span class="text"></span></div>
+                          <select name="enquiry2-select" data-rules="required" data-error-mes="This field is required">
+                            <option></option>
+                            <option>ENPAQ Services</option>
+                            <option>Careers</option>
+                            <option>Others</option>
+                          </select>
+                        </div>
+                        <label>Select</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="group">
+                            <input type="tel" name="contact-number" id="contact-number" placeholder="" class="custom-input" required data-rules="required|number" data-error-mes="This field is required|Please enter number">
+                        <label>Contact Number</label>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="group">
+                            <input type="text" name="email" id="email" placeholder="" class="custom-input" required data-rules="required|email" data-error-mes="This field is required|Email is invalid">
+                        <label>Email</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="group">
+                            <input type="text" name="subject" id="subject" placeholder="" class="custom-input" required data-rules="required" data-error-mes="This field is required">
+                        <label>Subject</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="group">
+                        <div class="wrap-txtarea">
+                              <textarea name="message" id="message" placeholder="" class="custom-input" required data-rules="required|specialcharacter" data-error-mes="This field is required|Please remove special characters"></textarea>
+                          <label>Message</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="note-block"><strong>Notes</strong>&nbsp; Do not include sensitive information such as your login ID, password or credit card number in your message. Please do not use special characters, example: " &lt; &gt; ( ) ' % ; + &amp; when you submit this form.</div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+					
+                          <button type="submit"  name="submit"  id="submit" class="btn btn-primary">SUBMIT
+                          </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="col-md-5">
+                <ul class="more-contact-info" style="font-family: Ubuntu;">
+                 <li>
+                    <p class="text-medium"><strong>Head Office / Registered Office / Registrar</strong></p>
+                    <p>A1- Second Floor<br>Thapasya, Info Park<br>Cochin<br>682042 Kerala, India<br>Contact: <a href="tel:(+91)8129662759" title="(+91)8129662759">(+91) 8129662759</a>
+                    </p>
+                  </li>
+                 <li>
+                    <p class="text-medium"><strong>Support</strong></p>
+                    <p>Email: <a href="mailto:enpaq@perfosys.in" title="enpaq@perfosys.in">enpaq@perfosys.in</a>
+                    </p>
+                  </li>
+                 <li>
+                    <p class="text-medium"><strong>Job Enquiries</strong></p>
+                    <p>Email: <a href="mailto:enpaq@perfosys.in" title="enpaq@perfosys.in">enpaq@perfosys.in</a>
+                    </p>
+                  </li>
+                  <li>
+                    <p class="text-medium"><strong>Issue Tracker:</strong></p>
+                    <p><a href=" https://enpaq.perfosys.in/" title="enpaq.perfosys.in">https://enpaq.perfosys.in/</a>
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+           
+          </div>
+        </main>
+      </section>
+    </div>
+	<script src="js/l10n.js"></script>
+  <script src="js/fade.js"></script>
+    <script src="js/libs.js"></script>
+    <script src="js/script.js"></script><!-- build:development-only -->
+    <script src="//localhost:35729/livereload.js"></script><!-- endbuild -->
+    <!--[if lte IE 9]><p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p><![endif]-->
+    <noscript>JavaScript is off. Please enable to view full site.</noscript>
+  </body>
+</html>

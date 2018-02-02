@@ -1,0 +1,30 @@
+/*Input Your Custom CSS Here*/
+.service-item .media-body{
+
+}
+
+.service-item .media-body ul{
+
+}
+
+.service-item .media-body ul li{
+
+}
+
+.sec-title {
+    margin: 0 auto 60px;
+    text-align: center;
+}
+
+#preloader-status {
+    height: 100px;
+    width: 100px;
+    background: url(../Perfosys_Website/img/preloader.gif);
+    background-repeat: no-repeat;
+    margin: -50px 0 0 -50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-position: center;
+    background-size: contain;
+}
